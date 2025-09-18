@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আমাদের সাঁথিয়া</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header {
+            width: 100%;
+            background-color: #2e7d32;
+            color: white;
+            padding: 15px 10px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .app-container {
+            width: 100%;
+            max-width: 450px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        /* 🔹 Hero Section */
+        .hero-section {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            position: relative;
+
+            background-image: url('benar.jpg');
+            /* এখানে ছবির নাম/লিঙ্ক দিন */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero-section::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+        }
+
+        .hero-section h1 {
+            position: relative;
+            z-index: 1;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            text-align: center;
+        }
+
+        .grid-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #f1f8e9;
+            padding: 15px 5px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .grid-item:hover {
+            background-color: #e8f5e9;
+        }
+
+        .icon {
+            font-size: 40px;
+            margin-bottom: 5px;
+        }
+
+        .label {
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <p>সাঁথিয়া উপজেলার সকল সেবা এখন হাতের মুঠোয়</p>
+    </div>
+
+    <div class="app-container">
+        <div class="hero-section">
+            <h1>আমাদের সাঁথিয়া</h1>
+        </div>
+
+        <div class="grid">
+            <a href="ডাক্তার.html" class="grid-item">
+                <div class="icon">⚕️</div>
+                <div class="label">ডাক্তার</div>
+            </a>
+
+            <a href="Hospita.html" class="grid-item">
+                <div class="icon">🏥</div>
+                <div class="label">হাসপাতাল</div>
+            </a>
+
+            <a href="Hospita.html" class="grid-item">
+                <div class="icon">?🏫</div>
+                <div class="label">স্কুল-কলেজ</div>
+            </a>
+
+            <a href="বাস.html" class="grid-item">
+                <div class="icon">🚌</div>
+                <div class="label">বাসের সময়সূচি</div>
+            </a>
+
+            <a href="tourist place .html" class="grid-item">
+                <div class="icon">🏞️</div>
+                <div class="label">দর্শনীয় স্থান</div>
+            </a>
+
+            <a href="basavara.html" class="grid-item">
+                <div class="icon">🏢</div>
+                <div class="label">বাসা ভাড়া</div>
+            </a>
+
+            <a href="shopping.html" class="grid-item">
+                <div class="icon">🛍️</div>
+                <div class="label">শপিং</div>
+            </a>
+
+            <a href="ambulance.html" class="grid-item">
+                <div class="icon">🚑</div>
+                <div class="label">অ্যাম্বুলেন্স সার্ভিস</div>
+            </a>
+
+            <a href="police.html" class="grid-item">
+                <div class="icon">🚓</div>
+                <div class="label">থানা-পুলিশ</div>
+            </a>
+
+            <a href="fire.html" class="grid-item">
+                <div class="icon">🚒</div>
+                <div class="label">ফায়ার সার্ভিস</div>
+            </a>
+
+            <a href="blood.html" class="grid-item">
+                <div class="icon">🩸</div>
+                <div class="label">রক্ত</div>
+            </a>
+
+            <a href="website.html" class="grid-item">
+                <div class="icon">🌐</div>
+                <div class="label">ওয়েবসাইট</div>
+            </a>
+
+            <a href="Electricityoffice.html" class="grid-item">
+                <div class="icon">💡</div>
+                <div class="label">বিদ্যুৎ অফিস</div>
+            </a>
+
+            <a href="hotel.html" class="grid-item">
+                <div class="icon">🏨</div>
+                <div class="label">হোটেল</div>
+            </a>
+
+            <a href="car.html" class="grid-item">
+                <div class="icon">🚗</div>
+                <div class="label">গাড়ী</div>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
